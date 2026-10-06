@@ -1,3 +1,9 @@
 # BEYZA-KOCAK
-ilk depom
-matlab dersi
+ilk matlabdersim.m
+x =linspace(0, 2*pi, 100);
+y = sin(x);
+plot(x, y, 'LineWidth', 2)
+xlabel('x')
+ylabel('sin(x)')
+title('Sinüs Grafiği')
+grid on
